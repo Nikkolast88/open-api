@@ -1,0 +1,11 @@
+{
+  "name": "@openapi/share",
+  "version": "0.0.1",
+  "description": "share",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nikkolast88@gmail.com",
+  "license": "MIT"
+}

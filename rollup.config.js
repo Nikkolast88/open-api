@@ -1,4 +1,6 @@
 // eslint-disable-next-line no-undef
+require('esbuild-register');
+// eslint-disable-next-line no-undef
 module.exports = require('./build/rollup.config.ts');
 
 // import rollupJson from '@rollup/plugin-json';
