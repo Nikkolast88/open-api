@@ -1,7 +1,7 @@
 {
-  "name": "@openapi/monorepo",
+  "name": "@open-api/monorepo",
   "version": "0.0.1",
-  "description": "openapi",
+  "description": "open-api",
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
@@ -15,29 +15,26 @@
   ],
   "author": "nikkolast88@gmail.com",
   "license": "MIT",
-  "dependencies": {
-    "axios": "^0.26.1"
-  },
   "devDependencies": {
-    "@commitlint/cli": "^16.2.3",
-    "@commitlint/config-conventional": "^16.2.1",
-    "@commitlint/cz-commitlint": "^16.2.3",
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "@commitlint/cz-commitlint": "^16.2.4",
     "@rollup/plugin-json": "^4.1.0",
-    "@typescript-eslint/eslint-plugin": "^5.15.0",
-    "@typescript-eslint/parser": "^5.15.0",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
     "better-docs": "^2.7.2",
     "commitizen": "^4.2.4",
     "esbuild-register": "^3.3.2",
-    "eslint": "^8.11.0",
+    "eslint": "^8.15.0",
     "esno": "^0.14.1",
-    "husky": "^7.0.4",
+    "husky": "^8.0.1",
     "jsdoc": "^3.6.10",
-    "lint-staged": "^12.3.7",
-    "prettier": "^2.6.0",
-    "rollup": "^2.70.1",
-    "rollup-plugin-dts": "^4.2.0",
-    "rollup-plugin-esbuild": "^4.8.2",
-    "typescript": "^4.6.2"
+    "lint-staged": "^12.4.1",
+    "prettier": "^2.6.2",
+    "rollup": "^2.72.1",
+    "rollup-plugin-dts": "^4.2.1",
+    "rollup-plugin-esbuild": "^4.9.1",
+    "typescript": "^4.6.4"
   },
   "config": {
     "commitizen": {
@@ -54,5 +51,8 @@
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix"
     ]
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
 }

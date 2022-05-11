@@ -1,6 +1,9 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-import { setupAxios } from '@openapi/core';
+import { setupAxios, login } from '@openapi/core';
+login({ username: 'admin', password: 'admin' }).then((resp) => {
+  console.log(resp);
+});
 setupAxios({
   baseURL: 'http://localhost:8080/api',
   timeout: 5000,

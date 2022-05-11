@@ -1,5 +1,5 @@
 {
-  "name": "@openapi/core",
+  "name": "@open-api/core",
   "version": "0.0.1",
   "description": "core",
   "main": "./index.cjs",
