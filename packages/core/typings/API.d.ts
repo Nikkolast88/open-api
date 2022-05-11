@@ -1,4 +1,4 @@
 export interface TLogin {
-  username: string;
-  password: string;
+  loginName: string;
+  authPass: string;
 }
